@@ -18,6 +18,7 @@ Las dependencias necesarias se instalan a traves del comando pip install -r requ
 La carpeta polls viene generada por "python manage.py startapp polls"(menos static ,templates y urls)
 
 <h2>TAREA_3</h2>
+
 1. Se le cambia el fondo a la aplicacion de encuestas. Para ello:
         Se sigue el directorio polls/templates/polls y se va al archivo index.html donde se comprueba que el directorio "background"
         es el correcto y donde además se le añade como título h2 Lorenzo Martinez Agudo y Raúl Navarro h2". Posteriormente dentro del archivo style.css ubicado en polls/static/polls se cambia el archivo background.jpg por el nuevo que quieras. En mi caso he añadido un archivo.jpg y dentro del archivo style.css el background es el nuevo archivo.jpg
