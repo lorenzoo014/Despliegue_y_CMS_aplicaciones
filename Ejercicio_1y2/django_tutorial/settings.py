@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         #Se puede comprobar que se esta trabajando con una base de datos en sqlite3 cuyo nombre es BASE_DIR
         'NAME': str(BASE_DIR / 'db.sqlite3'),
-        #SUPUESTO ERROR EN LA BASE DE DATOS---->MIRAR BIEN Y SI HACES COMMIT DE ESTO QUE SEA A PARTE
+        #Se corrige un error pequeño en la nomenclatura
     }
 }
 
@@ -109,7 +109,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'#+1
+TIME_ZONE = 'Europe/Madrid'#+1
 #Establezco la zona horaria de España
 
 USE_I18N = True
