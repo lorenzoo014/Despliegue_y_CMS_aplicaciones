@@ -4,9 +4,7 @@ Tutorial django: https://docs.djangoproject.com/en/3.1/intro/tutorial01/
 TAREA_1
 Las dependencias necesarias se instalan a traves del comando pip install -r requirements.txt
 1. Fork creado(me aprovecho de muchas cosas gracias a este fork)
-2. Me voy a aprovechar de que el entorno virtual esta ya creado y asi no hace falta crearlo pero sino se puede mirar eso en el 
-gestor_proyect_clientes
-
+2. Me voy a aprovechar de que el entorno virtual esta ya creado y asi no hace falta crearlo pero sino se crea a través del siguiente comando: "python -m venv venv"
 3. La base de datos es db.sqlite3, se puede ver el nombre y su configuracion en el archivo django_tutorial/settings.py
 
 4. Las aplicaciones utilizan al menos una tabla de base de datos, por lo que debemos crear las tablas en la base de datos antes de poder usarlas. A través del comando "python manage.py migrate"
