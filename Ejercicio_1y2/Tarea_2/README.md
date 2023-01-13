@@ -1,4 +1,4 @@
-TAREA_2
+<h2>TAREA_2</h2>
 1. Se copian los archivos de la anterior carpeta con el entorno virtual ya creado
         Las dependencias las instalo con el comando pip install -r requirements.txt(se le ha añadido la dependencia necesaria)
 2. Utilizar MySQL:
